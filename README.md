@@ -8,7 +8,7 @@
     ```bzl
     git_repository(
         name = "com_dsfishlabs_rules_perforce",
-        remote = "https://github.com/DeepSilverFishlabs/rules_perforce.git",
+        remote = "https://github.com/DeepSilverFishlabs/bazel_rules_perforce.git",
     )
     load("@com_dsfishlabs_rules_perforce//perforce:def.bzl", "p4_repository")
 
